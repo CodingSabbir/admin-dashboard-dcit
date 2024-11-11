@@ -1,3 +1,4 @@
+import SignInForm from "./authentication/signin/page";
 import ThemeContextProvider from "./Components/Context/ThemeContextProvider";
 import Navbar from "./Components/Navbar/Navbar";
 import Sidebar from "./Components/Sidebar/Sidebar";
@@ -12,6 +13,7 @@ export default function Home() {
       dark:bg-gray-900 dark:text-white">
     <Navbar/>
     
+    <SignInForm/>
   </div>
   </div>
   </ThemeContextProvider>

@@ -12,32 +12,32 @@ const Sidebar = () => {
 				
 			<ul className='flex flex-col mt-5 text-xl'>
 				<li className='flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        hover:bg-[#16325B] text-white'>
+        hover:bg-gray-800 text-white'>
 					<FaTachometerAlt />
 					<span className='hidden md:inline'>Dashboard</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        text-white hover:bg-[#16325B]">
+        text-white hover:bg-gray-800">
 					<FaShoppingCart />
 					<span className="hidden md:inline ">Orders</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        text-white hover:bg-[#16325B]">
+        text-white hover:bg-gray-800">
 					<FaUsers />
 					<span className="hidden md:inline ">Customers</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        text-white hover:bg-[#16325B]">
+        text-white hover:bg-gray-800">
 					<FaUser />
 					<span className="hidden md:inline ">Users</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        text-white hover:bg-[#16325B]">
+        text-white hover:bg-gray-800">
 					<FaBox />
 					<span className="hidden md:inline ">Products</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
-        text-white hover:bg-[#16325B]">
+        text-white hover:bg-gray-800">
 					<FaCog />
 					<span className="hidden md:inline ">Settings</span>
 				</li>
