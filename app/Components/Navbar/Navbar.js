@@ -7,7 +7,7 @@ import { ThemeCotext } from '../Context/ThemeContextProvider'
 const Navbar = () => {
     const {theme, toggleTheme} = useContext(ThemeCotext)
   return (
-    <div className='bg-gray-100 text-gray-900 border-b border-gray-300 p-4 flex justify-between items-center  dark:border-gray-600 dark:bg-gray-900 dark:text-white'>
+    <div className='bg-gray-100 text-gray-900 border-b border-gray-300 p-4  flex justify-between items-center  dark:border-gray-600 dark:bg-gray-900 dark:text-white'>
      <div className="flex px-4 py-3 overflow-hidden font-[sans-serif]">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -32,4 +32,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

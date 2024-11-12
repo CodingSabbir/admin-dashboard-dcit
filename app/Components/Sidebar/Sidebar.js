@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { FaTachometerAlt, FaShoppingCart, FaUsers, FaUser, FaBox, FaCog } from 'react-icons/fa';
 
@@ -11,35 +12,42 @@ const Sidebar = () => {
 			</div>
 				
 			<ul className='flex flex-col mt-5 text-xl'>
+				<Link href={"/authentication/signin"}>
 				<li className='flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         hover:bg-gray-800 text-white'>
 					<FaTachometerAlt />
 					<span className='hidden md:inline'>Dashboard</span>
 				</li>
+				</Link>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         text-white hover:bg-gray-800">
 					<FaShoppingCart />
-					<span className="hidden md:inline ">Orders</span>
+					<span className="hidden md:inline ">Employee</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         text-white hover:bg-gray-800">
 					<FaUsers />
-					<span className="hidden md:inline ">Customers</span>
+					<span className="hidden md:inline ">Department</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         text-white hover:bg-gray-800">
 					<FaUser />
-					<span className="hidden md:inline ">Users</span>
+					<span className="hidden md:inline ">Job</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         text-white hover:bg-gray-800">
 					<FaBox />
-					<span className="hidden md:inline ">Products</span>
+					<span className="hidden md:inline ">Attendance</span>
 				</li>
 				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
         text-white hover:bg-gray-800">
 					<FaCog />
-					<span className="hidden md:inline ">Settings</span>
+					<span className="hidden md:inline ">Leave_Request</span>
+				</li>
+				<li className="flex items-center py-3 px-2 space-x-4 hover:rounded hover:cursor-pointer 
+        text-white hover:bg-gray-800">
+					<FaCog />
+					<span className="hidden md:inline ">Leave_Request</span>
 				</li>
 			</ul>
 		</div>
